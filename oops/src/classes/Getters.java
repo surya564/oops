@@ -2,47 +2,39 @@ package classes;
 
 public class Getters {
 
-	private int id;
+	private int Emplo_Id;
+	
+	private String Emplo_name;
+	
+	private String Emplo_email;
 
-	private String Name;
-
-	private String Email;
-
-	public int getId() {
-
-		return id;
+	public int getEmplo_Id() {
+		return Emplo_Id;
 	}
 
-	public String getName() {
-
-		return Name;
+	public void setEmplo_Id(int emplo_Id) {
+		Emplo_Id = emplo_Id;
 	}
 
-	public String getEmail() {
-
-		return Email;
+	public String getEmplo_name() {
+		return Emplo_name;
 	}
 
-	public void setId(int id) {
-
-		this.id = id;
+	public void setEmplo_name(String emplo_name) {
+		Emplo_name = emplo_name;
 	}
 
-	public void setName(String name) {
-
-		Name = name;
-
+	public String getEmplo_email() {
+		return Emplo_email;
 	}
 
-	public void setEmail(String email) {
-		Email = email;
+	public void setEmplo_email(String emplo_email) {
+		Emplo_email = emplo_email;
+	}
+	
+
+	
+	
+	
 	}
 
-	public Getters(int id, String name, String email) {
-		super();
-		this.id = id;
-		Name = name;
-		Email = email;
-	}
-
-}
